@@ -23,7 +23,7 @@
     },
     {
       "source": "/api/(.*)",
-      "destination": "/api/$1"
+      "destination": "https://vardaansharma100-portfolio.hf.space/api/$1"
     },
     {
       "source": "/(.*)",
