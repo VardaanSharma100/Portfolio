@@ -1,0 +1,154 @@
+﻿# OS / IDE
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+.AppleDouble
+.LSOverride
+
+# Runtime, temp, logs
+.runtime/
+*.log
+logs/
+.cache/
+*.tmp
+temp_*
+temp_uploads/
+temp_videos/
+
+# Environment files
+.env
+.env.*
+.env.local
+.env*.local
+!.env.example
+!frontend/.env.example
+!frontend/projects/**/.env.example
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*$py.class
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Python packaging / build
+.Python
+build/
+dist/
+dist-ssr/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+env/
+env.bak/
+venv.bak/
+backend/.venv/
+backend/projects/**/.venv/
+backend/projects/**/venv/
+
+# Node / frontend
+node_modules/
+.npm/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.vite/
+frontend/projects/**/node_modules/
+frontend/projects/**/dist/
+frontend/projects/**/.vite/
+frontend/public/*/running/
+
+# Backend generated outputs
+backend/**/__pycache__/
+backend/**/*.py[cod]
+backend/projects/**/logs/
+backend/projects/**/output/
+backend/projects/**/temp_uploads/
+backend/projects/**/temp_videos/
+backend/projects/**/data/raw/temp_downloads/
+
+# Models / ML artifacts
+*.pth
+*.pt
+*.npy
+*.pkl
+*.pickle
+*.h5
+*.onnx
+*.safetensors
+*.joblib
+*.ckpt
+backend/projects/**/weights/*.pth
+backend/projects/**/models/*.pth
+backend/projects/**/models/*.joblib
+
+# Media artifacts
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+*.flv
+*.wmv
+*.mpg
+*.mpeg
+*.m4v
+*.3gp
+*.m4a
+*.mp3
+*.wav
+
+# Datasets / Archives (Added for safety)
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Local Databases (Added for FastAPI/Backend safety)
+*.sqlite
+*.sqlite3
+*.db
+
+# Project specific secrets/temp
+cookies.txt
+
+# CSV policy
+*.csv
+!backend/projects/Cab Demand Forecasting/data/processed/checkpoint.csv
+!backend/projects/Cab Demand Forecasting/data/processed/train_ready.csv
+!backend/projects/Cab Demand Forecasting/data/raw/ncr_rides_final_event_dataset_2024.csv
