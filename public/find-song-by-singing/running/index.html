@@ -1,32 +1,28 @@
 <!doctype html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>frontend</title>
-  <link rel="icon" type="image/png" href="/favicon.png?v=2" />
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-  <link rel="manifest" href="/site.webmanifest" />
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/find-song-by-singing/running/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>frontend</title>
+      <link rel="icon" type="image/png" href="/favicon.png?v=2" />
   <script type="module" crossorigin src="/find-song-by-singing/running/assets/index-DbcqgmRo.js"></script>
   <link rel="stylesheet" crossorigin href="/find-song-by-singing/running/assets/index-AdGRc-Pw.css">
-  <script data-refresh-home-redirect>
-    (function () {
-      try {
-        var nav = performance.getEntriesByType && performance.getEntriesByType("navigation")[0];
-        var isReload = nav && nav.type === "reload";
-        if (isReload && window.location.pathname !== "/") {
-          window.location.replace("/");
-        }
-      } catch (e) { }
-    })();
-  </script>
+<script data-refresh-home-redirect>
+(function () {
+  try {
+    var nav = performance.getEntriesByType && performance.getEntriesByType("navigation")[0];
+    var isReload = nav && nav.type === "reload";
+    if (isReload && window.location.pathname !== "/") {
+      window.location.replace("/");
+    }
+  } catch (e) {}
+})();
+</script>
 </head>
-
-<body>
-  <div id="root"></div>
-</body>
-
+  <body>
+    <div id="root"></div>
+  </body>
 </html>
+
+
