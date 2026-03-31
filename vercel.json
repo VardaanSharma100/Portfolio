@@ -1,0 +1,33 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "vardaansharma.com"
+        }
+      ],
+      "destination": "https://www.vardaansharma.com/$1",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/:project/running",
+      "destination": "/:project/running/index.html"
+    },
+    {
+      "source": "/:project/running/",
+      "destination": "/:project/running/index.html"
+    },
+    {
+      "source": "/api/(.*)",
+      "destination": "/api/$1"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/"
+    }
+  ]
+}
