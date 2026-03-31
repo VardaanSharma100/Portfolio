@@ -11,11 +11,11 @@ interface SEOProps {
 }
 
 export const SEO: React.FC<SEOProps> = ({
-  title = "Vardaan Sharma",
+  title = "Vardaan Sharma | AI & Machine Learning Engineer",
   description = "Vardaan Sharma's portfolio. AI & Machine Learning Engineer specializing in Deep Learning, PyTorch, and predictive modeling. Showcasing end-to-end projects like Neural Audio Fingerprinting (Siamese Networks) and dynamic Cab Demand Forecasting (XGBoost).",
-  keywords = "Vardaan Sharma, AI Engineer, Machine Learning, Deep Learning, PyTorch, XGBoost, Python, FastAPI, Data Science, Neural Networks, Audio Processing, Predictive Modeling, Backend.",
+  keywords = "Vardaan Sharma, AI Engineer, Machine Learning, Deep Learning, PyTorch, XGBoost, Python, FastAPI, Data Science, Neural Networks, Audio Processing, Predictive Modeling, Backend",
   image = "https://vardaansharma.dev/pic.jpg",
-  url = "https://vardaansharma.com/",
+  url = "https://vardaansharma.dev/",
   type = "website",
   author = "Vardaan Sharma"
 }) => {
@@ -25,44 +25,33 @@ export const SEO: React.FC<SEOProps> = ({
       "@context": "https://schema.org",
       "@type": "Person",
       "name": "Vardaan Sharma",
-      "jobTitle": "Computer Scientist",
+      "jobTitle": "AI & Machine Learning Engineer",
       "description": description,
-      "url": "https://vardaansharma.com",
+      "url": "https://vardaansharma.dev",
       "image": image,
       "sameAs": [
-        "https://github.com/vardaan-sharma",
-        "https://www.linkedin.com/in/vardaansharma/"
+        "https://github.com/vardaansharma100",
+        "https://www.linkedin.com/in/vardaansharma100"
       ],
       "knowsAbout": [
-        "Computer Science",
-        "Software Engineering",
-        "Information Technology",
-        "Data Structures and Algorithms",
-        "System Design",
-        "Operating Systems",
-        "Computer Networks",
-        "Database Management",
-        "Cybersecurity",
-        "Object-Oriented Programming",
-        "Web Development",
-        "API Development",
-        "Version Control",
-        "Software Testing",
-        "Problem Solving",
-        "Technical Troubleshooting",
-        "IT Support",
-        "System Administration"
-      ],
-      "alumniOf": {
-        "@type": "CollegeOrUniversity",
-        "name": "SUNY Polytechnic Institute"
-      }
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Deep Learning",
+        "PyTorch",
+        "XGBoost",
+        "Python",
+        "FastAPI",
+        "Neural Networks",
+        "Audio Processing",
+        "Predictive Modeling",
+        "Software Engineering"
+      ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebSite",
       "name": "Vardaan Sharma Portfolio",
-      "url": "https://vardaansharma.com",
+      "url": "https://vardaansharma.dev",
       "description": description,
       "author": {
         "@type": "Person",
@@ -84,17 +73,17 @@ export const SEO: React.FC<SEOProps> = ({
       <meta name="revisit-after" content="7 days" />
       <meta name="distribution" content="global" />
 
-      {/* Open Graph / Facebook */}
+      {/* Open Graph / Facebook / LinkedIn */}
       <meta property="og:type" content={type} />
       <meta property="og:url" content={url} />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
       <meta property="og:image" content={image} />
       <meta property="og:image:secure_url" content={image} />
-      <meta property="og:image:width" content="512" />
-      <meta property="og:image:height" content="512" />
-      <meta property="og:image:type" content="image/png" />
-      <meta property="og:image:alt" content={`${author} - Portfolio Logo`} />
+      <meta property="og:image:width" content="1200" />
+      <meta property="og:image:height" content="630" />
+      <meta property="og:image:type" content="image/jpeg" />
+      <meta property="og:image:alt" content="Vardaan Sharma | AI & Machine Learning Engineer" />
       <meta property="og:site_name" content="Vardaan Sharma Portfolio" />
       <meta property="og:locale" content="en_US" />
       {type === 'article' && author && (
@@ -107,7 +96,7 @@ export const SEO: React.FC<SEOProps> = ({
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={image} />
-      <meta name="twitter:image:alt" content={`${author} - Portfolio Logo`} />
+      <meta name="twitter:image:alt" content="Vardaan Sharma | AI & Machine Learning Engineer" />
 
       {/* Additional Meta Tags */}
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
