@@ -145,7 +145,7 @@ const FloatingImage: React.FC = () => {
     width: 800,
     height: 1390,
     decoding: "async" as const,
-    className: "absolute inset-0 no-image-save w-60 h-[26rem] xl:w-64 xl:h-[28rem] object-contain object-center rounded-2xl md:rounded-3xl transition-opacity duration-500 ease-in-out",
+    className: "absolute inset-0 no-image-save w-60 h-[26rem] xl:w-64 xl:h-[28rem] object-contain object-center rounded-3xl transition-opacity duration-500 ease-in-out",
     style: { backfaceVisibility: "hidden" as const },
   } as const;
 
