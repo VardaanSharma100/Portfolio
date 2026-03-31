@@ -1,13 +1,14 @@
 import fs from "fs";
 import path from "path";
 import react from "@vitejs/plugin-react";
-import { defineConfig } from "vite";
+import { defineConfig, ViteDevServer } from "vite";
+import type { IncomingMessage, ServerResponse } from "http";
 
 function serveRunningProjectApps() {
   return {
     name: "serve-running-project-apps",
-    configureServer(server) {
-      server.middlewares.use((req, _res, next) => {
+    configureServer(server: ViteDevServer) {
+      server.middlewares.use((req: IncomingMessage, _res: ServerResponse, next: () => void) => {
         if (!req.url) {
           next();
           return;
@@ -54,7 +55,7 @@ export default defineConfig({
     port: 5173,
     proxy: {
       "/api": {
-        target: "http://127.0.0.1:8000",
+        target: "https://vardaansharma100-portfolio.hf.space",
         changeOrigin: true,
       },
     },
