@@ -162,7 +162,7 @@ const FloatingImage: React.FC = () => {
                   {...imgCommon}
                   src={altMainImage}
                   loading="eager"
-                  fetchpriority="high"
+                  fetchPriority="high"
                   onLoad={() => setPrimaryImageLoaded(true)}
                   style={{ ...imgCommon.style, opacity: showAlt ? 1 : 0 }}
                   className={`${imgCommon.className} ${showAlt ? "z-10" : "z-0"}`}
@@ -193,7 +193,7 @@ const FloatingImage: React.FC = () => {
             {...imgCommon}
             src={altMainImage}
             loading="eager"
-            fetchpriority="high"
+            fetchPriority="high"
             onLoad={() => setPrimaryImageLoaded(true)}
             style={{ ...imgCommon.style, opacity: showAlt ? 1 : 0 }}
             className={`${imgCommon.className} ${showAlt ? "z-10" : "z-0"}`}
