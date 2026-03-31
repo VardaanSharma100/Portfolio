@@ -12,9 +12,9 @@ interface SEOProps {
 
 export const SEO: React.FC<SEOProps> = ({
   title = "Vardaan Sharma",
-  description = "Vardaan Sharma's portfolio. Full Stack Developer, Computer Science graduate, and aspiring IT support professional pursuing CompTIA A+ certification. Showcasing interactive React projects, Minecraft mods, and modern web applications built with TypeScript, Next.js, and creative UI design.",
-  keywords = "Vardaan Sharma, Computer Science graduate, Full Stack Developer, Software Engineer, Web Development, Frontend, Backend, Algorithms, Data Structures, Databases, Systems, IT Support, Help Desk, Technical Support, CompTIA A+, Entry-level IT, React, TypeScript, JavaScript, Portfolio",
-  image = "https://vardaansharma.com/android-chrome-512x512.png",
+  description = "Vardaan Sharma's portfolio. AI & Machine Learning Engineer specializing in Deep Learning, PyTorch, and predictive modeling. Showcasing end-to-end projects like Neural Audio Fingerprinting (Siamese Networks) and dynamic Cab Demand Forecasting (XGBoost).",
+  keywords = "Vardaan Sharma, AI Engineer, Machine Learning, Deep Learning, PyTorch, XGBoost, Python, FastAPI, Data Science, Neural Networks, Audio Processing, Predictive Modeling, Backend.",
+  image = "https://vardaansharma.dev/pic.jpg",
   url = "https://vardaansharma.com/",
   type = "website",
   author = "Vardaan Sharma"
