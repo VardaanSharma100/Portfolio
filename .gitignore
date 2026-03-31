@@ -152,3 +152,5 @@ cookies.txt
 !backend/projects/Cab Demand Forecasting/data/processed/checkpoint.csv
 !backend/projects/Cab Demand Forecasting/data/processed/train_ready.csv
 !backend/projects/Cab Demand Forecasting/data/raw/ncr_rides_final_event_dataset_2024.csv
+
+node_modules/
