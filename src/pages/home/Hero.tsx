@@ -265,6 +265,9 @@ export default function Hero(): JSX.Element {
             .hero-floating-image img {
               width: 18rem !important;
               height: 22rem !important;
+              border-radius: 1.5rem !important;
+              object-fit: cover !important;
+              object-position: center !important;
             }
             .hero-floating-image div[aria-hidden="true"] {
               width: 18rem !important;
@@ -275,6 +278,9 @@ export default function Hero(): JSX.Element {
             .hero-floating-image img {
               width: 15.5rem !important;
               height: 20rem !important;
+              border-radius: 1.5rem !important;
+              object-fit: cover !important;
+              object-position: center !important;
             }
             .hero-floating-image div[aria-hidden="true"] {
               width: 15.5rem !important;
