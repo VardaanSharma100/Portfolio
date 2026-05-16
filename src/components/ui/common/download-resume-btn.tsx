@@ -5,7 +5,7 @@ export default function ResumeButton() {
     <HoverBorderGradient
       containerClassName="rounded-2xl text-sm"
       as="a"
-      href="https://drive.google.com/file/d/1fGFO6r07d7HbDyL9qeHk6aFlu4x51xM0/view?usp=sharing"
+      href="https://drive.google.com/file/d/1fGFO6r07d7HbDyL9qeHk6aFlu4x51xM0/view?usp=drivesdk"
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Open resume"
